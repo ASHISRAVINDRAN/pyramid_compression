@@ -14,7 +14,7 @@ We propose a set of training schemes, which rely on transfer learning techniques
 Various VGG19 sub models SVGG17, SVGG14, SVGG11, SVGG8 and SVGG5 were created to experiment for different compressing levels. 
 The compressing result shows that the newly proposed pyramid configuration achieves the state of art classification accuracy for a compressed smaller model trained from scratch!
 The experiments carried out to explore the compression also compares different loss functions and their effect on the *inter-model* training.
-Again, Read the full report here!
+Again, Read the full report [here](docs/report_Pyramid_Intership.pdf)!
 
 ### Caveat
 
@@ -24,7 +24,7 @@ Code was developed in `Python 3.5` with `PyTorch` version 0.2. Yep, its from 201
 ### Results
 
 Using VGG based sub models for compression, SVGG5 (model with 5 conv layers and one FC layer) gave a whooping **91%** accuracy *(compared to 72.8% when trained from scratch)* on STL10 and **74.71%** accuracy (compared to 61.56% when trained from scratch)* on CIFAR 100.
-Again, Read the full report here!
+Again, Read the full report [here](docs/report_Pyramid_Intership.pdf)!
 
 ### Who are we
 
