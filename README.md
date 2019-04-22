@@ -5,7 +5,7 @@
 
 Training a deep neural network demands a huge amount of computational resources, and in the real-world scenario, the trained cumbersome model would drastically hinder the performance in the deployment stage in terms of computation and speed, despite its proven decent accuracy. Thus it is important to efficiently distil the knowledge from the large model (teacher) to get a smaller one (student) not trading too much on the original accuracy. 
 This project ponders over the possibilities of **inter-network training**. We compare how different configurations improve the transfer of knowledge (a.k.a Dark Knowledge) from ensemble/teacher model to smaller/student model. We propose a new configuration for inter-model training called the **Pyramid**. All experiments were carried out using VGG19 & VGG19 based sub-architectures, trained using STL10 & CIFAR100. The newly derived model using the proposed approach has 10x fewer parameters and 4x faster than VGG19.
-Read the full report here!
+Read the full report [here](.docs/report_Pyramid_Intership.pdf)!
 
 
 ### Pyramid Scheme
