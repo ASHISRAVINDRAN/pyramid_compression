@@ -1,0 +1,1761 @@
+/beegfs/home/hd/hd_hd/hd_pi457/code
+model=SVGG14
+dataset=CIFAR100
+Train mode=GRAM_PYRAMID
+==> Preparing Traindata..
+Files already downloaded and verified
+==> Preparing Testdata..
+Files already downloaded and verified
+VGG19 (from torchvision.models) for scratch training loaded
+File to be loaded:CIFAR100/SCRATCH/VGG19/VGG19_SCRATCH_CIFAR100.t7
+Loading File: CIFAR100/SCRATCH/VGG19/VGG19_SCRATCH_CIFAR100.t7
+File to be loaded:CIFAR100/PYRAMID_2STAGES/SVGG17/SVGG17_PYRAMID_2STAGES_CIFAR100.t7
+Loading File: CIFAR100/PYRAMID_2STAGES/SVGG17/SVGG17_PYRAMID_2STAGES_CIFAR100.t7
+File to be loaded:CIFAR100/GRAM_PYRAMID/SVGG17/SVGG17_GRAM_PYRAMID_CIFAR100.t7
+WARNING!!!: Weight of SVGG17 not loaded. No Existing file
+File to be loaded:CIFAR100/GRAM_PYRAMID/SVGG14/SVGG14_GRAM_PYRAMID_CIFAR100.t7
+WARNING!!!: Weight of SVGG14 not loaded. No Existing file
+loading big model...
+VGG19 (from torchvision.models) for scratch training loaded
+File to be loaded:CIFAR100/SCRATCH/VGG19/VGG19_SCRATCH_CIFAR100.t7
+Loading File: CIFAR100/SCRATCH/VGG19/VGG19_SCRATCH_CIFAR100.t7
+File to be loaded:CIFAR100/PYRAMID_2STAGES/SVGG17/SVGG17_PYRAMID_2STAGES_CIFAR100.t7
+Loading File: CIFAR100/PYRAMID_2STAGES/SVGG17/SVGG17_PYRAMID_2STAGES_CIFAR100.t7
+File to be loaded:CIFAR100/GRAM_PYRAMID/SVGG17/SVGG17_GRAM_PYRAMID_CIFAR100.t7
+WARNING!!!: Weight of SVGG17 not loaded. No Existing file
+model=SVGG14
+big model=SVGG17
+STAGE1
+INITIAL TEST STATISTICS
+Loss:  441499150.25
+Average Loss:  44149.915025
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+Epoch 1, lr=0.0001, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  1166699131.125
+Average Loss:  23333.9826225
+TEST STATISTICS
+Loss:  162456661.609375
+Average Loss:  16245.6661609375
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 2, lr=0.0001, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  783612941.375
+Average Loss:  15672.2588275
+TEST STATISTICS
+Loss:  110305518.3125
+Average Loss:  11030.55183125
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 3, lr=0.0001, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  666868379.0
+Average Loss:  13337.36758
+TEST STATISTICS
+Loss:  119889753.453125
+Average Loss:  11988.9753453125
+----------
+----------
+Epoch 4, lr=0.0001, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  628381724.9375
+Average Loss:  12567.63449875
+TEST STATISTICS
+Loss:  90779993.140625
+Average Loss:  9077.9993140625
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 5, lr=0.0001, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  554415725.8125
+Average Loss:  11088.31451625
+TEST STATISTICS
+Loss:  90753748.53125
+Average Loss:  9075.374853125
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 6, lr=0.0001, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  595029526.375
+Average Loss:  11900.5905275
+TEST STATISTICS
+Loss:  94545949.5625
+Average Loss:  9454.59495625
+----------
+----------
+Epoch 7, lr=0.0001, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  569922476.8125
+Average Loss:  11398.44953625
+TEST STATISTICS
+Loss:  84498854.4375
+Average Loss:  8449.88544375
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 8, lr=0.0001, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  528579004.125
+Average Loss:  10571.5800825
+TEST STATISTICS
+Loss:  86687132.9921875
+Average Loss:  8668.71329921875
+----------
+----------
+Epoch 9, lr=0.0001, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  480851531.1875
+Average Loss:  9617.03062375
+TEST STATISTICS
+Loss:  97778443.203125
+Average Loss:  9777.8443203125
+----------
+----------
+Epoch 10, lr=0.0001, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  455253593.3125
+Average Loss:  9105.07186625
+TEST STATISTICS
+Loss:  87198467.15625
+Average Loss:  8719.846715625
+----------
+----------
+Epoch 11, lr=0.0001, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  498782206.0625
+Average Loss:  9975.64412125
+TEST STATISTICS
+Loss:  79598489.4375
+Average Loss:  7959.84894375
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 12, lr=0.0001, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  468690632.5625
+Average Loss:  9373.81265125
+TEST STATISTICS
+Loss:  80478229.453125
+Average Loss:  8047.8229453125
+----------
+----------
+Epoch 13, lr=0.0001, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  434336233.0625
+Average Loss:  8686.72466125
+TEST STATISTICS
+Loss:  79160619.703125
+Average Loss:  7916.0619703125
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 14, lr=0.0001, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  407639973.0
+Average Loss:  8152.79946
+TEST STATISTICS
+Loss:  78780668.234375
+Average Loss:  7878.0668234375
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 15, lr=0.0001, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  458894631.9375
+Average Loss:  9177.89263875
+TEST STATISTICS
+Loss:  117696965.875
+Average Loss:  11769.6965875
+----------
+----------
+Epoch 16, lr=0.0001, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  470000324.3125
+Average Loss:  9400.00648625
+TEST STATISTICS
+Loss:  73920975.484375
+Average Loss:  7392.0975484375
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 17, lr=0.0001, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  406702454.9375
+Average Loss:  8134.04909875
+TEST STATISTICS
+Loss:  81936632.265625
+Average Loss:  8193.6632265625
+----------
+----------
+Epoch 18, lr=0.0001, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  454838462.75
+Average Loss:  9096.769255
+TEST STATISTICS
+Loss:  74854711.9296875
+Average Loss:  7485.47119296875
+----------
+----------
+Epoch 19, lr=0.0001, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  403367476.9375
+Average Loss:  8067.34953875
+TEST STATISTICS
+Loss:  84050262.40625
+Average Loss:  8405.026240625
+----------
+----------
+Epoch 20, lr=0.0001, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  397145855.125
+Average Loss:  7942.9171025
+TEST STATISTICS
+Loss:  71806240.1640625
+Average Loss:  7180.62401640625
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 21, lr=0.0001, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  392848149.1875
+Average Loss:  7856.96298375
+TEST STATISTICS
+Loss:  80305669.6640625
+Average Loss:  8030.56696640625
+----------
+----------
+Epoch 22, lr=0.0001, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  382975760.1875
+Average Loss:  7659.51520375
+TEST STATISTICS
+Loss:  72992753.484375
+Average Loss:  7299.2753484375
+----------
+----------
+Epoch 23, lr=0.0001, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  765333030.9375
+Average Loss:  15306.66061875
+TEST STATISTICS
+Loss:  96187655.265625
+Average Loss:  9618.7655265625
+----------
+----------
+Epoch 24, lr=0.0001, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  473843163.0625
+Average Loss:  9476.86326125
+TEST STATISTICS
+Loss:  90376540.625
+Average Loss:  9037.6540625
+----------
+----------
+Epoch 25, lr=0.0001, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  487861961.5625
+Average Loss:  9757.23923125
+TEST STATISTICS
+Loss:  125035220.65625
+Average Loss:  12503.522065625
+----------
+----------
+Epoch 26, lr=0.0001, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  462401182.5625
+Average Loss:  9248.02365125
+TEST STATISTICS
+Loss:  81232325.3671875
+Average Loss:  8123.23253671875
+----------
+Epoch    26: reducing learning rate of group 0 to 1.0000e-05.
+Checkpoint loaded
+----------
+Epoch 27, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  323088900.9375
+Average Loss:  6461.77801875
+TEST STATISTICS
+Loss:  65475953.1640625
+Average Loss:  6547.59531640625
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 28, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  310279252.59375
+Average Loss:  6205.585051875
+TEST STATISTICS
+Loss:  64855401.7578125
+Average Loss:  6485.54017578125
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 29, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  306146424.0
+Average Loss:  6122.92848
+TEST STATISTICS
+Loss:  64291625.046875
+Average Loss:  6429.1625046875
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 30, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  301384345.03125
+Average Loss:  6027.686900625
+TEST STATISTICS
+Loss:  63742378.953125
+Average Loss:  6374.2378953125
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 31, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  296715951.125
+Average Loss:  5934.3190225
+TEST STATISTICS
+Loss:  62966168.8515625
+Average Loss:  6296.61688515625
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 32, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  293434896.5
+Average Loss:  5868.69793
+TEST STATISTICS
+Loss:  63194616.4765625
+Average Loss:  6319.46164765625
+----------
+----------
+Epoch 33, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  289269821.46875
+Average Loss:  5785.396429375
+TEST STATISTICS
+Loss:  61937503.8203125
+Average Loss:  6193.75038203125
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 34, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  286560941.5
+Average Loss:  5731.21883
+TEST STATISTICS
+Loss:  62251164.96875
+Average Loss:  6225.116496875
+----------
+----------
+Epoch 35, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  284735542.25
+Average Loss:  5694.710845
+TEST STATISTICS
+Loss:  61724244.3671875
+Average Loss:  6172.42443671875
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 36, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  281975742.28125
+Average Loss:  5639.514845625
+TEST STATISTICS
+Loss:  61351120.421875
+Average Loss:  6135.1120421875
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 37, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  279033061.84375
+Average Loss:  5580.661236875
+TEST STATISTICS
+Loss:  60920469.28125
+Average Loss:  6092.046928125
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 38, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  277074942.375
+Average Loss:  5541.4988475
+TEST STATISTICS
+Loss:  61051051.4296875
+Average Loss:  6105.10514296875
+----------
+----------
+Epoch 39, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  275049533.75
+Average Loss:  5500.990675
+TEST STATISTICS
+Loss:  60736381.9453125
+Average Loss:  6073.63819453125
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 40, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  273082543.21875
+Average Loss:  5461.650864375
+TEST STATISTICS
+Loss:  60808129.2578125
+Average Loss:  6080.81292578125
+----------
+----------
+Epoch 41, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  271367014.71875
+Average Loss:  5427.340294375
+TEST STATISTICS
+Loss:  60607483.546875
+Average Loss:  6060.7483546875
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 42, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  269293569.875
+Average Loss:  5385.8713975
+TEST STATISTICS
+Loss:  60336670.609375
+Average Loss:  6033.6670609375
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 43, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  266915255.75
+Average Loss:  5338.305115
+TEST STATISTICS
+Loss:  60354540.234375
+Average Loss:  6035.4540234375
+----------
+----------
+Epoch 44, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  265088166.6875
+Average Loss:  5301.76333375
+TEST STATISTICS
+Loss:  60172352.9375
+Average Loss:  6017.23529375
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 45, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  263853822.5625
+Average Loss:  5277.07645125
+TEST STATISTICS
+Loss:  60036539.828125
+Average Loss:  6003.6539828125
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 46, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  262678591.03125
+Average Loss:  5253.571820625
+TEST STATISTICS
+Loss:  59894409.515625
+Average Loss:  5989.4409515625
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 47, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  261042648.71875
+Average Loss:  5220.852974375
+TEST STATISTICS
+Loss:  60138096.46875
+Average Loss:  6013.809646875
+----------
+----------
+Epoch 48, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  259296351.0625
+Average Loss:  5185.92702125
+TEST STATISTICS
+Loss:  59739518.7265625
+Average Loss:  5973.95187265625
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 49, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  258739613.34375
+Average Loss:  5174.792266875
+TEST STATISTICS
+Loss:  59501042.1953125
+Average Loss:  5950.10421953125
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 50, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  256431151.8125
+Average Loss:  5128.62303625
+TEST STATISTICS
+Loss:  59617020.5546875
+Average Loss:  5961.70205546875
+----------
+----------
+Epoch 51, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  255530216.28125
+Average Loss:  5110.604325625
+TEST STATISTICS
+Loss:  59740240.34375
+Average Loss:  5974.024034375
+----------
+----------
+Epoch 52, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  254776502.1875
+Average Loss:  5095.53004375
+TEST STATISTICS
+Loss:  59811584.9765625
+Average Loss:  5981.15849765625
+----------
+----------
+Epoch 53, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  253279076.46875
+Average Loss:  5065.581529375
+TEST STATISTICS
+Loss:  59298561.7890625
+Average Loss:  5929.85617890625
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 54, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  251524129.625
+Average Loss:  5030.4825925
+TEST STATISTICS
+Loss:  59526123.8203125
+Average Loss:  5952.61238203125
+----------
+----------
+Epoch 55, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  250480735.625
+Average Loss:  5009.6147125
+TEST STATISTICS
+Loss:  58996503.40625
+Average Loss:  5899.650340625
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 56, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  249620785.125
+Average Loss:  4992.4157025
+TEST STATISTICS
+Loss:  59180157.2734375
+Average Loss:  5918.01572734375
+----------
+----------
+Epoch 57, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  248654037.46875
+Average Loss:  4973.080749375
+TEST STATISTICS
+Loss:  58859496.9609375
+Average Loss:  5885.94969609375
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 58, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  247359547.15625
+Average Loss:  4947.190943125
+TEST STATISTICS
+Loss:  58911864.03125
+Average Loss:  5891.186403125
+----------
+----------
+Epoch 59, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  247870202.84375
+Average Loss:  4957.404056875
+TEST STATISTICS
+Loss:  58916585.40625
+Average Loss:  5891.658540625
+----------
+----------
+Epoch 60, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  245948900.75
+Average Loss:  4918.978015
+TEST STATISTICS
+Loss:  58594021.8828125
+Average Loss:  5859.40218828125
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 61, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  245353849.625
+Average Loss:  4907.0769925
+TEST STATISTICS
+Loss:  59040814.3984375
+Average Loss:  5904.08143984375
+----------
+----------
+Epoch 62, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  243438680.3125
+Average Loss:  4868.77360625
+TEST STATISTICS
+Loss:  58615279.65625
+Average Loss:  5861.527965625
+----------
+----------
+Epoch 63, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  242400306.5
+Average Loss:  4848.00613
+TEST STATISTICS
+Loss:  58558210.859375
+Average Loss:  5855.8210859375
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 64, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  242046615.28125
+Average Loss:  4840.932305625
+TEST STATISTICS
+Loss:  58741781.2109375
+Average Loss:  5874.17812109375
+----------
+----------
+Epoch 65, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  241064293.53125
+Average Loss:  4821.285870625
+TEST STATISTICS
+Loss:  58680229.328125
+Average Loss:  5868.0229328125
+----------
+----------
+Epoch 66, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  240096042.5
+Average Loss:  4801.92085
+TEST STATISTICS
+Loss:  58411478.546875
+Average Loss:  5841.1478546875
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 67, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  239800865.53125
+Average Loss:  4796.017310625
+TEST STATISTICS
+Loss:  58676065.6484375
+Average Loss:  5867.60656484375
+----------
+----------
+Epoch 68, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  238417495.5625
+Average Loss:  4768.34991125
+TEST STATISTICS
+Loss:  58487833.8125
+Average Loss:  5848.78338125
+----------
+----------
+Epoch 69, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  238202074.625
+Average Loss:  4764.0414925
+TEST STATISTICS
+Loss:  58454474.171875
+Average Loss:  5845.4474171875
+----------
+----------
+Epoch 70, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  237796814.25
+Average Loss:  4755.936285
+TEST STATISTICS
+Loss:  58584547.34375
+Average Loss:  5858.454734375
+----------
+----------
+Epoch 71, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  235941270.21875
+Average Loss:  4718.825404375
+TEST STATISTICS
+Loss:  58653437.25390625
+Average Loss:  5865.343725390625
+----------
+----------
+Epoch 72, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  235118303.0
+Average Loss:  4702.36606
+TEST STATISTICS
+Loss:  58635600.703125
+Average Loss:  5863.5600703125
+----------
+Epoch    72: reducing learning rate of group 0 to 1.0000e-06.
+Checkpoint loaded
+----------
+Epoch 73, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  236302242.6875
+Average Loss:  4726.04485375
+TEST STATISTICS
+Loss:  58253357.5234375
+Average Loss:  5825.33575234375
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 74, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  236389589.21875
+Average Loss:  4727.791784375
+TEST STATISTICS
+Loss:  58273503.984375
+Average Loss:  5827.3503984375
+----------
+----------
+Epoch 75, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  235842018.125
+Average Loss:  4716.8403625
+TEST STATISTICS
+Loss:  58265286.390625
+Average Loss:  5826.5286390625
+----------
+----------
+Epoch 76, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  235848287.65625
+Average Loss:  4716.965753125
+TEST STATISTICS
+Loss:  58245501.03125
+Average Loss:  5824.550103125
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 77, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  235485883.71875
+Average Loss:  4709.717674375
+TEST STATISTICS
+Loss:  58228809.9296875
+Average Loss:  5822.88099296875
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 78, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  235397994.53125
+Average Loss:  4707.959890625
+TEST STATISTICS
+Loss:  58205736.0859375
+Average Loss:  5820.57360859375
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 79, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  235496636.59375
+Average Loss:  4709.932731875
+TEST STATISTICS
+Loss:  58259208.625
+Average Loss:  5825.9208625
+----------
+----------
+Epoch 80, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  235156428.84375
+Average Loss:  4703.128576875
+TEST STATISTICS
+Loss:  58190668.6953125
+Average Loss:  5819.06686953125
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 81, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  235282969.9375
+Average Loss:  4705.65939875
+TEST STATISTICS
+Loss:  58155432.5625
+Average Loss:  5815.54325625
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 82, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  234863510.28125
+Average Loss:  4697.270205625
+TEST STATISTICS
+Loss:  58174002.9609375
+Average Loss:  5817.40029609375
+----------
+----------
+Epoch 83, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  234948892.71875
+Average Loss:  4698.977854375
+TEST STATISTICS
+Loss:  58126120.8984375
+Average Loss:  5812.61208984375
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 84, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  235027139.5
+Average Loss:  4700.54279
+TEST STATISTICS
+Loss:  58157415.4921875
+Average Loss:  5815.74154921875
+----------
+----------
+Epoch 85, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  234467958.09375
+Average Loss:  4689.359161875
+TEST STATISTICS
+Loss:  58123995.0546875
+Average Loss:  5812.39950546875
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 86, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  234604463.125
+Average Loss:  4692.0892625
+TEST STATISTICS
+Loss:  58172894.2109375
+Average Loss:  5817.28942109375
+----------
+----------
+Epoch 87, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  234164160.34375
+Average Loss:  4683.283206875
+TEST STATISTICS
+Loss:  58115196.296875
+Average Loss:  5811.5196296875
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 88, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  234436022.75
+Average Loss:  4688.720455
+TEST STATISTICS
+Loss:  58178564.37890625
+Average Loss:  5817.856437890625
+----------
+----------
+Epoch 89, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  233886933.8125
+Average Loss:  4677.73867625
+TEST STATISTICS
+Loss:  58176176.140625
+Average Loss:  5817.6176140625
+----------
+----------
+Epoch 90, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  233989452.9375
+Average Loss:  4679.78905875
+TEST STATISTICS
+Loss:  58134760.34375
+Average Loss:  5813.476034375
+----------
+----------
+Epoch 91, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  234163743.9375
+Average Loss:  4683.27487875
+TEST STATISTICS
+Loss:  58150629.5625
+Average Loss:  5815.06295625
+----------
+----------
+Epoch 92, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  234058442.40625
+Average Loss:  4681.168848125
+TEST STATISTICS
+Loss:  58100749.859375
+Average Loss:  5810.0749859375
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 93, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  233604993.03125
+Average Loss:  4672.099860625
+TEST STATISTICS
+Loss:  58107607.6328125
+Average Loss:  5810.76076328125
+----------
+----------
+Epoch 94, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  233767326.3125
+Average Loss:  4675.34652625
+TEST STATISTICS
+Loss:  58078234.625
+Average Loss:  5807.8234625
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 95, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  233815459.09375
+Average Loss:  4676.309181875
+TEST STATISTICS
+Loss:  58139322.296875
+Average Loss:  5813.9322296875
+----------
+----------
+Epoch 96, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  233727282.0625
+Average Loss:  4674.54564125
+TEST STATISTICS
+Loss:  58041941.703125
+Average Loss:  5804.1941703125
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 97, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  233300087.71875
+Average Loss:  4666.001754375
+TEST STATISTICS
+Loss:  58104403.6875
+Average Loss:  5810.44036875
+----------
+----------
+Epoch 98, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  233292279.59375
+Average Loss:  4665.845591875
+TEST STATISTICS
+Loss:  58061716.6953125
+Average Loss:  5806.17166953125
+----------
+----------
+Epoch 99, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  233384446.4375
+Average Loss:  4667.68892875
+TEST STATISTICS
+Loss:  58071159.875
+Average Loss:  5807.1159875
+----------
+----------
+Epoch 100, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  233284635.5
+Average Loss:  4665.69271
+TEST STATISTICS
+Loss:  58079756.484375
+Average Loss:  5807.9756484375
+----------
+----------
+Epoch 101, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  233181973.84375
+Average Loss:  4663.639476875
+TEST STATISTICS
+Loss:  58072604.1640625
+Average Loss:  5807.26041640625
+----------
+----------
+Epoch 102, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  233277609.8125
+Average Loss:  4665.55219625
+TEST STATISTICS
+Loss:  58072026.9375
+Average Loss:  5807.20269375
+----------
+Epoch   102: reducing learning rate of group 0 to 1.0000e-07.
+Checkpoint loaded
+----------
+Epoch 103, lr=1.0000000000000002e-07, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  233148519.4375
+Average Loss:  4662.97038875
+TEST STATISTICS
+Loss:  58077785.6875
+Average Loss:  5807.77856875
+----------
+----------
+Epoch 104, lr=1.0000000000000002e-07, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  233469598.65625
+Average Loss:  4669.391973125
+TEST STATISTICS
+Loss:  58082528.1953125
+Average Loss:  5808.25281953125
+----------
+----------
+Epoch 105, lr=1.0000000000000002e-07, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  232833322.90625
+Average Loss:  4656.666458125
+TEST STATISTICS
+Loss:  58069967.09375
+Average Loss:  5806.996709375
+----------
+----------
+Epoch 106, lr=1.0000000000000002e-07, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  232792803.03125
+Average Loss:  4655.856060625
+TEST STATISTICS
+Loss:  58075395.59375
+Average Loss:  5807.539559375
+----------
+----------
+Epoch 107, lr=1.0000000000000002e-07, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  233460047.5
+Average Loss:  4669.20095
+TEST STATISTICS
+Loss:  58078520.9921875
+Average Loss:  5807.85209921875
+----------
+----------
+Epoch 108, lr=1.0000000000000002e-07, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Loss:  233571822.40625
+Average Loss:  4671.436448125
+TEST STATISTICS
+Loss:  58089259.9609375
+Average Loss:  5808.92599609375
+----------
+Epoch   108: reducing learning rate of group 0 to 1.0000e-08.
+Checkpoint loaded
+----------
+Checkpoint loaded
+FINAL TRAIN STATISTICS
+Loss:  233089689.53125
+Average Loss:  4661.793790625
+FINAL TEST STATISTICS
+Loss:  58041941.8046875
+Average Loss:  5804.19418046875
+Total time elapsed 53613.64953875542
+FINAL TRAIN STATISTICS
+Accuracy:  0.646
+Loss:  1800.621379852295
+Average Loss:  0.0360124275970459
+FINAL TEST STATISTICS
+Accuracy:  0.75
+Loss:  363.80841302871704
+Average Loss:  0.036380841302871704
+Total time elapsed 132.53759384155273
+CIFAR100/GRAM_PYRAMID/SVGG14/SVGG14_GRAM_PYRAMID_CIFAR100.t7 saved
+CIFAR100/GRAM_PYRAMID/SVGG14/STAGE1/SVGG14_GRAM_PYRAMID_CIFAR100.t7 saved
+STAGE2
+INITIAL TEST STATISTICS
+Accuracy:  0.75
+Loss:  363.80841302871704
+Average Loss:  0.036380841302871704
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+Epoch 1, lr=0.0001, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  87.046
+Loss:  179.26334665715694
+Average Loss:  0.003585266933143139
+TEST STATISTICS
+Accuracy:  75.39
+Loss:  74.22687214612961
+Average Loss:  0.007422687214612961
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 2, lr=0.0001, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  93.128
+Loss:  86.0791984796524
+Average Loss:  0.001721583969593048
+TEST STATISTICS
+Accuracy:  76.39
+Loss:  76.54562294483185
+Average Loss:  0.0076545622944831845
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 3, lr=0.0001, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  94.558
+Loss:  67.6684785373509
+Average Loss:  0.0013533695707470179
+TEST STATISTICS
+Accuracy:  75.73
+Loss:  79.95293086767197
+Average Loss:  0.007995293086767196
+----------
+----------
+Epoch 4, lr=0.0001, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  95.222
+Loss:  57.78041134774685
+Average Loss:  0.001155608226954937
+TEST STATISTICS
+Accuracy:  75.43
+Loss:  83.04191666841507
+Average Loss:  0.008304191666841506
+----------
+----------
+Epoch 5, lr=0.0001, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  95.988
+Loss:  49.92177473753691
+Average Loss:  0.0009984354947507382
+TEST STATISTICS
+Accuracy:  75.76
+Loss:  84.74774420261383
+Average Loss:  0.008474774420261384
+----------
+----------
+Epoch 6, lr=0.0001, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  96.484
+Loss:  43.80192539840937
+Average Loss:  0.0008760385079681874
+TEST STATISTICS
+Accuracy:  75.62
+Loss:  85.54104807972908
+Average Loss:  0.008554104807972907
+----------
+----------
+Epoch 7, lr=0.0001, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  96.648
+Loss:  42.27631701156497
+Average Loss:  0.0008455263402312994
+TEST STATISTICS
+Accuracy:  74.76
+Loss:  87.06742489337921
+Average Loss:  0.00870674248933792
+----------
+----------
+Epoch 8, lr=0.0001, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  96.672
+Loss:  41.5911022759974
+Average Loss:  0.000831822045519948
+TEST STATISTICS
+Accuracy:  75.43
+Loss:  90.44980724155903
+Average Loss:  0.009044980724155903
+----------
+Epoch     8: reducing learning rate of group 0 to 1.0000e-05.
+Checkpoint loaded
+----------
+Epoch 9, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  97.932
+Loss:  27.428122262470424
+Average Loss:  0.0005485624452494085
+TEST STATISTICS
+Accuracy:  79.08
+Loss:  74.38321614265442
+Average Loss:  0.007438321614265442
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 10, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  98.642
+Loss:  17.46047332137823
+Average Loss:  0.0003492094664275646
+TEST STATISTICS
+Accuracy:  79.35
+Loss:  77.77537477016449
+Average Loss:  0.007777537477016449
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 11, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  99.104
+Loss:  12.612898841733113
+Average Loss:  0.00025225797683466224
+TEST STATISTICS
+Accuracy:  79.35
+Loss:  82.31209924817085
+Average Loss:  0.008231209924817086
+----------
+----------
+Epoch 12, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  99.268
+Loss:  9.843161850003526
+Average Loss:  0.0001968632370000705
+TEST STATISTICS
+Accuracy:  79.07
+Loss:  85.95131993293762
+Average Loss:  0.008595131993293762
+----------
+----------
+Epoch 13, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  99.446
+Loss:  7.932972291484475
+Average Loss:  0.0001586594458296895
+TEST STATISTICS
+Accuracy:  79.35
+Loss:  90.89245694875717
+Average Loss:  0.009089245694875717
+----------
+----------
+Epoch 14, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  99.518
+Loss:  6.941891487920657
+Average Loss:  0.00013883782975841313
+TEST STATISTICS
+Accuracy:  79.43
+Loss:  96.52049148082733
+Average Loss:  0.009652049148082733
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 15, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  99.588
+Loss:  6.016909430269152
+Average Loss:  0.00012033818860538303
+TEST STATISTICS
+Accuracy:  79.25
+Loss:  96.88810563087463
+Average Loss:  0.009688810563087463
+----------
+----------
+Epoch 16, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  99.738
+Loss:  4.633812592830509
+Average Loss:  9.267625185661018e-05
+TEST STATISTICS
+Accuracy:  79.11
+Loss:  102.49828684329987
+Average Loss:  0.010249828684329986
+----------
+----------
+Epoch 17, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  99.714
+Loss:  4.359324050194118
+Average Loss:  8.718648100388237e-05
+TEST STATISTICS
+Accuracy:  79.21
+Loss:  103.40179657936096
+Average Loss:  0.010340179657936096
+----------
+----------
+Epoch 18, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  99.776
+Loss:  3.624411439639516
+Average Loss:  7.248822879279032e-05
+TEST STATISTICS
+Accuracy:  78.86
+Loss:  106.446238219738
+Average Loss:  0.0106446238219738
+----------
+----------
+Epoch 19, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  99.726
+Loss:  4.032059680437669
+Average Loss:  8.064119360875338e-05
+TEST STATISTICS
+Accuracy:  78.88
+Loss:  105.1320071220398
+Average Loss:  0.01051320071220398
+----------
+----------
+Epoch 20, lr=1e-05, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  99.764
+Loss:  3.579934216453694
+Average Loss:  7.159868432907388e-05
+TEST STATISTICS
+Accuracy:  78.82
+Loss:  109.65702724456787
+Average Loss:  0.010965702724456787
+----------
+Epoch    20: reducing learning rate of group 0 to 1.0000e-06.
+Checkpoint loaded
+----------
+Epoch 21, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  99.728
+Loss:  4.3740043276920915
+Average Loss:  8.748008655384183e-05
+TEST STATISTICS
+Accuracy:  79.61
+Loss:  93.52929732203484
+Average Loss:  0.009352929732203483
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 22, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  99.806
+Loss:  3.553222324582748
+Average Loss:  7.106444649165496e-05
+TEST STATISTICS
+Accuracy:  79.55
+Loss:  95.77277827262878
+Average Loss:  0.009577277827262878
+----------
+----------
+Epoch 23, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  99.8
+Loss:  3.3954365967656486
+Average Loss:  6.790873193531298e-05
+TEST STATISTICS
+Accuracy:  79.45
+Loss:  96.26782613992691
+Average Loss:  0.00962678261399269
+----------
+----------
+Epoch 24, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  99.824
+Loss:  3.257154152437579
+Average Loss:  6.514308304875157e-05
+TEST STATISTICS
+Accuracy:  79.62
+Loss:  98.52575308084488
+Average Loss:  0.009852575308084487
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 25, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  99.818
+Loss:  2.953785741236061
+Average Loss:  5.907571482472122e-05
+TEST STATISTICS
+Accuracy:  79.63
+Loss:  101.77537798881531
+Average Loss:  0.01017753779888153
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 26, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  99.836
+Loss:  3.0335772986873053
+Average Loss:  6.067154597374611e-05
+TEST STATISTICS
+Accuracy:  79.66
+Loss:  100.27210122346878
+Average Loss:  0.010027210122346877
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 27, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  99.828
+Loss:  2.8501552500529215
+Average Loss:  5.700310500105843e-05
+TEST STATISTICS
+Accuracy:  79.56
+Loss:  99.91683948040009
+Average Loss:  0.009991683948040009
+----------
+----------
+Epoch 28, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  99.864
+Loss:  2.652948683768045
+Average Loss:  5.3058973675360905e-05
+TEST STATISTICS
+Accuracy:  79.58
+Loss:  104.79796719551086
+Average Loss:  0.010479796719551087
+----------
+----------
+Epoch 29, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  99.852
+Loss:  2.553026030480396
+Average Loss:  5.106052060960792e-05
+TEST STATISTICS
+Accuracy:  79.64
+Loss:  102.83542358875275
+Average Loss:  0.010283542358875275
+----------
+----------
+Epoch 30, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  99.874
+Loss:  2.3708127317368053
+Average Loss:  4.741625463473611e-05
+TEST STATISTICS
+Accuracy:  79.67
+Loss:  104.12326639890671
+Average Loss:  0.010412326639890671
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 31, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  99.85
+Loss:  2.298452541406732
+Average Loss:  4.596905082813464e-05
+TEST STATISTICS
+Accuracy:  79.69
+Loss:  105.04023939371109
+Average Loss:  0.010504023939371108
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 32, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  99.886
+Loss:  2.1162334607797675
+Average Loss:  4.232466921559535e-05
+TEST STATISTICS
+Accuracy:  79.63
+Loss:  105.51815029978752
+Average Loss:  0.010551815029978753
+----------
+----------
+Epoch 33, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  99.9
+Loss:  1.9416096063214354
+Average Loss:  3.883219212642871e-05
+TEST STATISTICS
+Accuracy:  79.77
+Loss:  107.89934587478638
+Average Loss:  0.010789934587478638
+----------
+CHECKPOINT/checkpoint_SVGG14_GRAM_PYRAMID_CIFAR100/CHECKPOINT.t7 saved
+----------
+Epoch 34, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  99.906
+Loss:  1.9329820357379504
+Average Loss:  3.865964071475901e-05
+TEST STATISTICS
+Accuracy:  79.43
+Loss:  108.0002030134201
+Average Loss:  0.01080002030134201
+----------
+----------
+Epoch 35, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  99.894
+Loss:  2.0765889957838226
+Average Loss:  4.1531779915676454e-05
+TEST STATISTICS
+Accuracy:  79.61
+Loss:  107.49150377511978
+Average Loss:  0.010749150377511979
+----------
+----------
+Epoch 36, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  99.896
+Loss:  1.8992719308298547
+Average Loss:  3.798543861659709e-05
+TEST STATISTICS
+Accuracy:  79.65
+Loss:  111.92672526836395
+Average Loss:  0.011192672526836395
+----------
+----------
+Epoch 37, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  99.9
+Loss:  1.9202774839359336
+Average Loss:  3.840554967871867e-05
+TEST STATISTICS
+Accuracy:  79.65
+Loss:  110.48844128847122
+Average Loss:  0.011048844128847123
+----------
+----------
+Epoch 38, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  99.914
+Loss:  1.726724750304129
+Average Loss:  3.4534495006082577e-05
+TEST STATISTICS
+Accuracy:  79.71
+Loss:  110.02847844362259
+Average Loss:  0.011002847844362259
+----------
+----------
+Epoch 39, lr=1.0000000000000002e-06, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  99.92
+Loss:  1.7886812618235126
+Average Loss:  3.5773625236470255e-05
+TEST STATISTICS
+Accuracy:  79.42
+Loss:  110.96256774663925
+Average Loss:  0.011096256774663926
+----------
+Epoch    39: reducing learning rate of group 0 to 1.0000e-07.
+Checkpoint loaded
+----------
+Epoch 40, lr=1.0000000000000002e-07, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  99.892
+Loss:  2.033719151862897
+Average Loss:  4.067438303725794e-05
+TEST STATISTICS
+Accuracy:  79.74
+Loss:  109.87562489509583
+Average Loss:  0.010987562489509583
+----------
+----------
+Epoch 41, lr=1.0000000000000002e-07, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  99.916
+Loss:  1.8396853412268683
+Average Loss:  3.679370682453737e-05
+TEST STATISTICS
+Accuracy:  79.68
+Loss:  107.43842315673828
+Average Loss:  0.010743842315673827
+----------
+----------
+Epoch 42, lr=1.0000000000000002e-07, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  99.894
+Loss:  1.8796070887474343
+Average Loss:  3.759214177494869e-05
+TEST STATISTICS
+Accuracy:  79.59
+Loss:  107.19337207078934
+Average Loss:  0.010719337207078935
+----------
+----------
+Epoch 43, lr=1.0000000000000002e-07, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  99.912
+Loss:  1.8779632403457072
+Average Loss:  3.7559264806914146e-05
+TEST STATISTICS
+Accuracy:  79.62
+Loss:  107.46991318464279
+Average Loss:  0.010746991318464278
+----------
+----------
+Epoch 44, lr=1.0000000000000002e-07, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  99.928
+Loss:  1.7776269419700839
+Average Loss:  3.5552538839401675e-05
+TEST STATISTICS
+Accuracy:  79.61
+Loss:  107.66126275062561
+Average Loss:  0.01076612627506256
+----------
+----------
+Epoch 45, lr=1.0000000000000002e-07, patience=5, weight decay=0.0005
+----------
+TRAIN STATISTICS
+Accuracy:  99.928
+Loss:  1.818288883427158
+Average Loss:  3.636577766854316e-05
+TEST STATISTICS
+Accuracy:  79.62
+Loss:  107.55084335803986
+Average Loss:  0.010755084335803985
+----------
+Epoch    45: reducing learning rate of group 0 to 1.0000e-08.
+Checkpoint loaded
+----------
+Checkpoint loaded
+FINAL TRAIN STATISTICS
+Accuracy:  99.972
+Loss:  0.7738508295442443
+Average Loss:  1.5477016590884886e-05
+FINAL TEST STATISTICS
+Accuracy:  79.77
+Loss:  107.73325091600418
+Average Loss:  0.010773325091600418
+Total time elapsed 15279.062713623047
+CIFAR100/GRAM_PYRAMID/SVGG14/SVGG14_GRAM_PYRAMID_CIFAR100.t7 saved
